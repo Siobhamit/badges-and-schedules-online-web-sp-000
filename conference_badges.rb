@@ -10,6 +10,6 @@ end
 def assign_rooms(attendees)
   attendees.map{|name|
     room = 1
-  "Hello, #{name}! You'll be assigned to room #{room}!"
+return  "Hello, #{name}! You'll be assigned to room #{room}!"
   room+=1 }
 end
