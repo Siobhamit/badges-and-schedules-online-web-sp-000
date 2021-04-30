@@ -18,7 +18,7 @@ end
 
 def printer(attendees)
 array = []
-  array << batch_badge_creator(attendees)
-  array << assign_rooms(attendees)
+ batch_badge_creator(attendees).each{|value| puts value}
+ assign_rooms(attendees).each{|value| puts value}
   array
 end
