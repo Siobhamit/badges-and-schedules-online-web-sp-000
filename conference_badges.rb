@@ -12,5 +12,5 @@ def assign_rooms(attendees)
   attendees.each_with_index{|name, index|
   room = index + 1
   assignments << "Hello, #{name}! You'll be assigned to room #{room}"}
-  return assignments
+ assignments
 end
